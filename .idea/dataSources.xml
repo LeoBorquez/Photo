@@ -7,5 +7,29 @@
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://localhost:5432/postgres</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="Rails Photo: test" uuid="c08f5168-58e1-411a-9583-fe224d2a308d">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/Photo_test</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Rails Photo: development" uuid="4cfdba15-b944-4c5e-87da-631b260a86ac">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/Photo_development</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Rails Photo: production" uuid="da90cc2d-dd89-409d-a246-aff90318ef6d">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/Photo_production</jdbc-url>
+    </data-source>
   </component>
 </project>
