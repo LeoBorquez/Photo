@@ -52,7 +52,9 @@
       <ul class="nav navbar-right col-md-4">
         <% if current_user %>
           <li class="col-md-8 user-name">
-            <%= link_to('<i class="fa fa-user"></i>' + truncate(current_user.email, length: 25).html_safe, edit_user_registration_path, title: 'Edit profile') %>
+            <i class="fa fa-user">
+              <%= link_to(truncate(current_user.email, length: 25).html_safe, edit_user_registration_path, title: 'Edit profile') %>
+            </i>
           </li>
           <li class="col-md-1">&nbsp;</li>
           <li class="col-md-3 logout">
