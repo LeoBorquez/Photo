@@ -26,6 +26,8 @@ class ImagesController < ApplicationController
   def create
     @image = Image.new(image_params)
 
+    @image.user = current_user
+
     respond_to do |format|
       if @image.save
         format.html { redirect_to @image, notice: 'Image was successfully created.' }
